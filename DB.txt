@@ -1,0 +1,3 @@
+Create Database "todoapi";
+
+create table Tarea (id int not null AUTO_INCREMENT, Tarea varchar(50) not null, Estado varchar(20), primary key (id));
